@@ -1,5 +1,7 @@
-# IUCAAplex 🍿
+
 ![Logo](./README_files/banner-light.png)
+
+# IUCAAplex 🍿
 IUCAAplex is a media platform for friends who have been working hard, and can surely use a break 🍻
 This is a voluntary project, hosting free and open content 👼🏽
 #    
