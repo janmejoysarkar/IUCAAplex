@@ -1,0 +1,18 @@
+Adding your logo at the top of the login page:
+
+- Simply go to your web root for jellyfin /usr/share/jellyfin/web/ and use nano (or your own text editor) to edit the session-login-index-html.xxxxxxxxxxxxxxxxxxxxx.bundle.js file for nano just use
+	```
+	sudo nano session-login-index-html.*.bundle.js
+	```
+ - Find the string:
+	```
+	 <div class="padded-left padded-right padded-bottom-page margin-auto-y">
+	```
+- now directly after this string paste the following (but ammend for your own logo it can even be a gif if you want animated etc)
+
+	```
+	<img src="/web/logo.png" width=350px style="padding: 0px;display:block; margin-left: auto; margin-right: auto;">
+	```
+
+Source: https://github.com/BobHasNoSoul/jellyfin-mods?tab=readme-ov-file#adding-your-logo-at-the-top-of-the-login-page
+
